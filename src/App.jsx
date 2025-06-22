@@ -50,7 +50,7 @@ function App() {
         <h1>Gerenciador de Tarefas</h1>
         <AddTask onTaskAdd={onTaskAdd}/>
 
-        <h2>Listagem das suas Tarefa atualizadas</h2>
+        <h2>Listagem das suas Tarefa Atualizadas</h2>
         <ListTask tasks={tasks} onTaskClick={onTaskClick} onTaskDelete={onTaskDelete}/>
     </>
   )
