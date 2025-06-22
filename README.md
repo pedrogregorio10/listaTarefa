@@ -10,3 +10,19 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+# listaTarefa
+#…or create a new repository on the command line
+echo "# listaTarefa" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pedrogregorio10/listaTarefa.git
+git push -u origin main
+
+#…or push an existing repository from the command line
+git remote add origin https://github.com/pedrogregorio10/listaTarefa.git
+git branch -M main
+git push -u origin main
