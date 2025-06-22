@@ -31,7 +31,7 @@ function App() {
           try{
             if(tasks.length === 0){
             const response = await axios.get('https://jsonplaceholder.typicode.com/todos?_limit=5')
-                          setTasks(response.data)
+            setTasks(response.data)
                 }
           } catch(error){
               console.log("esse e um erro :" + error)
